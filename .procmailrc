@@ -1,0 +1,8 @@
+MAILDIR=${HOME}/.Mail
+LOGFILE=${MAILDIR}/procmail-log
+DEFAULT=${MAILDIR}/incoming-mail
+
+:0:
+*
+${DEFAULT}
+

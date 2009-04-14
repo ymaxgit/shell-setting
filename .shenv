@@ -1,0 +1,67 @@
+# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+#
+# Designed to be shared among different shells and computers
+#
+# Author: David Terei
+# Last Modified: 11/08/2008
+
+# the default umask is set in /etc/profile
+umask 007
+
+# get 256 color mode
+#export TERM="xterm-256color"
+
+export EDITOR="vim"
+export SVN_EDITOR="vim"
+export VISUAL="vim"
+export VIEWER="less"
+
+# set PATH so it includes user's private bin if it exists
+if [ -d ~/bin ] ; then
+	PATH=~/bin:"${PATH}"
+fi
+
+# stulocal - Uni
+STULOCAL=/home/stulocal/bin/setup-env.sh
+if [ -d "${STULOCAL}" ] ; then
+	. ${STULOCAL}
+fi
+
+# RoboCup Soccer Simulator
+RCSSBASE=~/Projects/cs344/rcss_11
+if [ -d "${RCSSBASE}" ] ; then
+	export RCSSBASE=${RCSSBASE}
+	export PATH=${PATH}:${RCSSBASE}/bin
+fi
+
+# AOS - Home
+AOSBIN=/opt/crosstool/gcc-3.4.5-glibc-2.3.5/armv5b-softfloat-linux/bin
+if [ -d "${AOSBIN}" ] ; then
+	export PATH=${PATH}:${AOSBIN}
+fi
+
+# AOS - Uni
+arm5xdev=gcc-3.4.5-glibc-2.3.5/armv5b-softfloat-linux
+if [ -d "/home/disy/crossdev/${ARCH}/${arm5xdev}/bin" ] ; then
+	export PATH=${PATH}:/home/disy/crossdev/${ARCH}/${arm5xdev}/bin
+	export PATH=${PATH}:/home/disy/bin
+fi
+
+# AOS - Home
+if [ "$HOSTNAME" = "david-laptop" ] ; then
+	export TFTPROOT=/srv/tftp/
+fi
+
+# tex
+if [ -d "$HOME/tex/" ] ; then
+	export TEXINPUTS=.:$HOME/tex/:$TEXINPUTS
+fi
+
+if [ "$HOSTNAME" = "chiaroscuro" ] ; then
+	export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+	export MANPATH=/opt/local/share/man:$MANPATH
+	export DISPLAY=:0.0
+fi
+
