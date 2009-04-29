@@ -37,7 +37,7 @@ Mod1 v   :ExecCommand aterm -name alsa -e alsamixer
 
 # opens a number of programs with quickkeys. These are just examples, I am sure
 # you get the point...
-Mod4 f   :ExecCommand rox
+Mod4 f   :ExecCommand thunar
 Mod4 w   :ExecCommand opera
 Mod4 Shift w   :ExecCommand firefox
 Mod4 e   :ExecCommand et
