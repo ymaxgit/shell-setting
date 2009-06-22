@@ -1,9 +1,8 @@
-#### ZSH CONFIG ####
-#
+# Zsh Shell Config
 # Designed to be shared among different shells and computers
 #
 # Author: David Terei
-# Last Modified: 11/08/2008
+# Last Modified: 21/06/2009
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh/.zsh_history
@@ -40,13 +39,13 @@ autoload -U promptinit
 promptinit
 export PROMPT=$'%m %(0?..%{\e[0;31m%}%?)%(1j.%{\e[0;32m%}%j.)%{\e[0;33m%}%16<...<%~%<<%{\e[0;36m%}%#%{\e[0m%} '
 
-# Alias definitions.
-if [ -f ~/.aliases ]; then
-    . ~/.aliases
+# Environment variables
+if [ -f ~/.shenv ]; then
+	source ~/.shenv
 fi
 
-# Environment variables
-if [ -f ~/.profile ]; then
-	source ~/.profile
+# Alias definitions.
+if [ -f ~/.aliases ]; then
+	. ~/.aliases
 fi
 

@@ -1,11 +1,8 @@
-# ~/.profile: executed by the command interpreter for login shells.
-# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
-# exists.
-#
+# Common Environmental Variables File
 # Designed to be shared among different shells and computers
 #
 # Author: David Terei
-# Last Modified: 11/08/2008
+# Last Modified: 21/06/2009
 
 # the default umask is set in /etc/profile
 umask 007
@@ -17,6 +14,13 @@ export EDITOR="vim"
 export SVN_EDITOR="vim"
 export VISUAL="vim"
 export VIEWER="less"
+
+# set maildrop location
+MAILFOLDER=~/.Mail
+if [ -d "${MAILFOLDER}" ]; then
+	export MAILDROP="${MAILFOLDER}/incoming-mail"
+	export MAIL="${MAILFOLDER}/incoming-mail"
+fi
 
 # set PATH so it includes user's private bin if it exists
 if [ -d ~/bin ] ; then
@@ -59,9 +63,15 @@ if [ -d "$HOME/tex/" ] ; then
 	export TEXINPUTS=.:$HOME/tex/:$TEXINPUTS
 fi
 
+# work mac - macports
 if [ "$HOSTNAME" = "chiaroscuro" ] ; then
 	export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 	export MANPATH=/opt/local/share/man:$MANPATH
 	export DISPLAY=:0.0
+fi
+
+# uni - sshagent
+if [ -f ~/.ssh_startup.sh ]; then
+	source ~/.ssh_startup.sh
 fi
 

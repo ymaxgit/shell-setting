@@ -1,5 +1,5 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# designed to be shared among different computers and enviornments
+# Bash Shell Config
+# Designed to be shared among different shells and computers
 #
 # Author: David Terei
 # Last Modified: 11/08/2008
