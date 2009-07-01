@@ -4,6 +4,9 @@
 # Author: David Terei
 # Last Modified: 21/06/2009
 
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh/.zsh_history
 HISTSIZE=2000
@@ -46,6 +49,11 @@ fi
 
 # Alias definitions.
 if [ -f ~/.aliases ]; then
-	. ~/.aliases
+	source ~/.aliases
+fi
+
+# Ssh agent
+if [ -f ~/.ssh_startup.sh ]; then
+	source ~/.ssh_startup.sh
 fi
 

@@ -22,11 +22,6 @@ shopt -s checkwinsize
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-# enable programmable completion features
-if [ -f /etc/bash_completion ]; then
-	source /etc/bash_completion
-fi
-
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
 xterm-color)
@@ -57,5 +52,15 @@ fi
 # Alias definitions.
 if [ -f ~/.aliases ]; then
 	source ~/.aliases
+fi
+
+# Ssh agent
+if [ -f ~/.ssh_startup.sh ]; then
+	source ~/.ssh_startup.sh
+fi
+
+# enable programmable completion features
+if [ -f /etc/bash_completion ]; then
+	. /etc/bash_completion
 fi
 
