@@ -22,11 +22,6 @@ if [ -d "${MAILFOLDER}" ]; then
 	export MAIL="${MAILFOLDER}/incoming-mail"
 fi
 
-# set PATH so it includes user's private bin if it exists
-if [ -d ~/bin ] ; then
-	PATH=~/bin:"${PATH}"
-fi
-
 # stulocal - Uni
 STULOCAL=/home/stulocal/bin/setup-env.sh
 if [ -d "${STULOCAL}" ] ; then
@@ -73,6 +68,11 @@ fi
 # spark - sun - thesis
 if [ "$HOSTNAME" = "sparky" ] ; then
 	export LD_LIBRARY_PATH=/usr/sfw/lib:/opt/csw/lib:/usr/ccs/lib:$LD_LIBRARY_PATH
-	export PATH=/opt/SUNWspro/extra/bin:/opt/gcc-vanilla/4.1.2/bin:/opt/csw/bin:/usr/bin:/usr/ccs/bin
+	export PATH=/opt/SUNWspro/extra/bin:/opt/gcc-vanilla/4.1.2/bin:/opt/csw/bin:/usr/bin:/usr/ccs/bin:$PATH
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d ~/bin ] ; then
+	export PATH=~/bin:${PATH}
 fi
 
