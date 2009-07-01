@@ -46,3 +46,6 @@ alias grep='grep -E'
 # nice function for easy text searching in files
 function fsearch() { find * -iname "$1" | xargs egrep "$2"; }
 
+# nice pause function (equivalent of DOS pause)
+function pause() { read -n1 -r -p "Press any key to continue..." key; }
+
