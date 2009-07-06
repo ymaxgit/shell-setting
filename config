@@ -1,0 +1,21 @@
+Host cse
+  HostName ssh.cse.unsw.edu.au
+  User davidt
+
+Host ut
+  HostName apu.cs.utexas.edu
+  User dterei
+
+Host spk
+  HostName sparky.ce.chalmers.se
+  User david
+
+Host gry
+  HostName greyarea.cse.unsw.edu.au
+  User davidterei
+
+Host dev
+  HostName cluster.sirca.org.au
+  User david
+  Port 222
+
