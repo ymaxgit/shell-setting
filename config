@@ -1,3 +1,7 @@
+# settings
+ServerAliveInterval 20
+
+# hosts
 Host cse
   HostName ssh.cse.unsw.edu.au
   User davidt
@@ -16,6 +20,6 @@ Host gry
 
 Host dev
   HostName cluster.sirca.org.au
-  User david
+  User davidt
   Port 222
 
