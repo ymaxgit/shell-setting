@@ -1,25 +1,20 @@
-# settings
 ServerAliveInterval 20
 
-# hosts
 Host cse
   HostName ssh.cse.unsw.edu.au
   User davidt
-
-Host ut
-  HostName apu.cs.utexas.edu
-  User dterei
-
-Host spk
-  HostName sparky.ce.chalmers.se
-  User david
 
 Host gry
   HostName greyarea.cse.unsw.edu.au
   User davidterei
 
-Host dev
-  HostName cluster.sirca.org.au
-  User davidt
-  Port 222
+# Bens Mac OS X - 4 core x 2 thread intel i7
+Host des
+  HostName desire.cse.unsw.edu.au
+  User davidterei
+
+# GHC Spark machine
+Host spk
+  HostName sparky.ce.chalmers.se
+  User david
 
