@@ -1,9 +1,11 @@
 ServerAliveInterval 20
 
+# UNSW
 Host cse
   HostName ssh.cse.unsw.edu.au
   User davidt
 
+# SPARK machine
 Host gry
   HostName greyarea.cse.unsw.edu.au
   User davidterei
@@ -17,4 +19,14 @@ Host des
 Host spk
   HostName sparky.ce.chalmers.se
   User david
+
+# Haskell community
+Host hsk
+	HostName code.haskell.org
+	User davidt
+
+# GHC Head
+Host ghc
+	HostName darcs.haskell.org
+	User dterei
 
