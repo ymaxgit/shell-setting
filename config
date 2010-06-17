@@ -30,3 +30,18 @@ Host ghc
 	HostName darcs.haskell.org
 	User dterei
 
+# Microsoft Research Machines
+host ms32
+	Hostname cam-02-unx
+	User t-dater
+	ForwardX11 yes
+	ForwardX11Trusted yes
+	ServerAliveInterval 60
+
+host ms64
+	Hostname cam-04-unx
+	User t-dater
+	ForwardX11 yes
+	ForwardX11Trusted yes
+	ServerAliveInterval 60
+
