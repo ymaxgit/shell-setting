@@ -45,3 +45,9 @@ host ms64
 	ForwardX11Trusted yes
 	ServerAliveInterval 60
 
+# Ian Lynagh OSX Machine
+host ian
+	Hostname chaos.earth.li
+	User davidterei
+	Port 229
+
