@@ -11,7 +11,7 @@ Host gry
   User davidterei
 
 # Bens Mac OS X - 4 core x 2 thread intel i7
-Host des
+Host ben
   HostName desire.cse.unsw.edu.au
   User davidterei
 
@@ -29,21 +29,6 @@ Host hsk
 Host ghc
 	HostName darcs.haskell.org
 	User dterei
-
-# Microsoft Research Machines
-host ms32
-	Hostname cam-02-unx
-	User t-dater
-	ForwardX11 yes
-	ForwardX11Trusted yes
-	ServerAliveInterval 60
-
-host ms64
-	Hostname cam-04-unx
-	User t-dater
-	ForwardX11 yes
-	ForwardX11Trusted yes
-	ServerAliveInterval 60
 
 # Ian Lynagh OSX Machine
 host ian
