@@ -1,10 +1,5 @@
 ServerAliveInterval 20
 
-# UNSW
-Host cse
-  HostName ssh.cse.unsw.edu.au
-  User davidt
-
 # SPARK machine
 Host gry
   HostName greyarea.cse.unsw.edu.au
@@ -35,4 +30,9 @@ host ian
 	Hostname chaos.earth.li
 	User davidterei
 	Port 229
+
+# Staford Machine
+host sfu
+	Hostname 171.66.3.209
+	User davidt
 
