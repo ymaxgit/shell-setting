@@ -35,4 +35,5 @@ host ian
 host sfu
 	Hostname 171.66.3.209
 	User davidt
+	ForwardX11 yes
 
