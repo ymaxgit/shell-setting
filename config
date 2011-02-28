@@ -31,9 +31,9 @@ host ian
 	User davidterei
 	Port 229
 
-# Staford Machine
+# Staford Machine (171.66.3.209)
 host sfu
-	Hostname 171.66.3.209
+	Hostname davidt.scs.stanford.edu
 	User davidt
 	ForwardX11 yes
 
