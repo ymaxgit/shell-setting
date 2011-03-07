@@ -15,11 +15,6 @@ Host spk
   HostName sparky.ce.chalmers.se
   User david
 
-# Haskell community
-Host hsk
-	HostName code.haskell.org
-	User davidt
-
 # GHC Head
 Host ghc
 	HostName darcs.haskell.org
@@ -29,7 +24,6 @@ Host ghc
 host ian
 	Hostname chaos.earth.li
 	User davidterei
-	Port 229
 
 # Staford Machine (171.66.3.209)
 host sfu
