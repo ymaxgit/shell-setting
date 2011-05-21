@@ -1,10 +1,5 @@
 ServerAliveInterval 20
 
-# SPARK machine
-Host gry
-  HostName greyarea.cse.unsw.edu.au
-  User davidterei
-
 # Bens Mac OS X - 4 core x 2 thread intel i7
 Host ben
   HostName desire.cse.unsw.edu.au
@@ -19,11 +14,6 @@ Host spk
 Host ghc
 	HostName darcs.haskell.org
 	User dterei
-
-# Ian Lynagh OSX Machine
-host ian
-	Hostname chaos.earth.li
-	User davidterei
 
 # Staford Machine (171.66.3.209)
 host sfu
