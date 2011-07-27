@@ -2,13 +2,13 @@ ServerAliveInterval 20
 
 # Bens Mac OS X - 4 core x 2 thread intel i7
 Host ben
-  HostName desire.cse.unsw.edu.au
-  User davidterei
+	HostName desire.cse.unsw.edu.au
+	User davidterei
 
 # GHC Spark machine
 Host spk
-  HostName sparky.ce.chalmers.se
-  User david
+	HostName sparky.ce.chalmers.se
+	User david
 
 # GHC Head
 Host ghc
@@ -23,5 +23,9 @@ host sfu
 
 host market
 	Hostname market.scs.stanford.edu
+	User davidt
+
+host hyq
+	Hostname hyaqu.darkircop.org
 	User davidt
 
