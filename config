@@ -29,3 +29,7 @@ host hyq
 	Hostname hyaqu.darkircop.org
 	User davidt
 
+host ver
+	Hostname boggl.in
+	User verdi
+
