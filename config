@@ -33,3 +33,7 @@ host ver
 	Hostname boggl.in
 	User verdi
 
+host ver2
+	Hostname bottl.in
+	User dterei
+
