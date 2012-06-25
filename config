@@ -37,7 +37,11 @@ host ver2
 	Hostname bottl.in
 	User dterei
 
-host mem
+host mc1
 	Hostname mc1.ec2.memcachier.com
+	User davidt
+
+host mc2
+	Hostname mc2.ec2.memcachier.com
 	User davidt
 
