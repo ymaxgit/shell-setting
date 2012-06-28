@@ -45,7 +45,7 @@ host mc2
 	Hostname mc2.ec2.memcachier.com
 	User davidt
 
-host mc2
+host mc3
 	Hostname mc3.ec2.memcachier.com
 	User davidt
 
