@@ -49,3 +49,7 @@ host mc3
 	Hostname mc3.ec2.memcachier.com
 	User davidt
 
+host mc1eu
+   Hostname mc1.eu.ec2.memcachier.com
+	User ubuntu
+
