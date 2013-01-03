@@ -25,33 +25,18 @@ host market
 	Hostname market.scs.stanford.edu
 	User davidt
 
-host hyq
-	Hostname hyaqu.darkircop.org
-	User davidt
-
-host ver
-	Hostname boggl.in
-	User verdi
-
-host ver2
-	Hostname bottl.in
-	User dterei
-
+# MemCachier machines
 host mc1
 	Hostname mc1.ec2.memcachier.com
 	User ubuntu
 
-host mc1-nodes
-	Hostname mc1-nodes.ec2.memcachier.com
-	User davidt
-
 host mc2
 	Hostname mc2.ec2.memcachier.com
-	User davidt
+	User ubuntu
 
 host mc3
 	Hostname mc3.ec2.memcachier.com
-	User davidt
+	User ubuntu
 
 host mc4
 	Hostname mc4.ec2.memcachier.com
@@ -61,16 +46,16 @@ host mc5
 	Hostname mc5.ec2.memcachier.com
 	User ubuntu
 
-host mc6
-	Hostname mc6.ec2.memcachier.com
-	User ubuntu
-
 host mc7
 	Hostname mc7.ec2.memcachier.com
 	User ubuntu
 
 host mc8
 	Hostname mc8.ec2.memcachier.com
+	User ubuntu
+
+host mc9
+	Hostname mc9.ec2.memcachier.com
 	User ubuntu
 
 host mc1eu
