@@ -25,6 +25,10 @@ host market
 	Hostname market.scs.stanford.edu
 	User davidt
 
+host seven
+   Hostname seven.stanford.edu
+	User dterei
+
 # MemCachier machines
 host mc1
 	Hostname mc1.ec2.memcachier.com
