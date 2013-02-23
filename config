@@ -29,6 +29,26 @@ host seven
    Hostname seven.stanford.edu
 	User dterei
 
+host z1
+	Hostname zephyr1.stanford.edu
+	User dterei
+
+host z2
+	Hostname zephyr2.stanford.edu
+	User dterei
+
+host z3
+	Hostname zephyr3.stanford.edu
+	User dterei
+
+host z4
+	Hostname zephyr4.stanford.edu
+	User dterei
+
+host z5
+	Hostname zephyr5.stanford.edu
+	User dterei
+
 # MemCachier machines
 host mc1
 	Hostname mc1.ec2.memcachier.com
