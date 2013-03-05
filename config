@@ -49,6 +49,10 @@ host z5
 	Hostname zephyr5.stanford.edu
 	User dterei
 
+host haskell
+   Hostname haskell.scs.stanford.edu
+	User davidt
+
 # MemCachier machines
 host mc1
 	Hostname mc1.ec2.memcachier.com
