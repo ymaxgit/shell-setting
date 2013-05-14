@@ -118,3 +118,11 @@ host mc2dev
    Hostname mc2.dev.ec2.memcachier.com
 	User ubuntu
 
+host mcwork
+	Hostname mcwork.ec2.memcachier.com
+	User ubuntu
+
+host mctmp
+	Hostname mctmp.ec2.memcachier.com
+	User ubuntu
+
