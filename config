@@ -1,21 +1,11 @@
 ServerAliveInterval 20
 
-# Bens Mac OS X - 4 core x 2 thread intel i7
-Host ben
-	HostName desire.cse.unsw.edu.au
-	User davidterei
-
-# GHC Spark machine
-Host spk
-	HostName sparky.ce.chalmers.se
-	User david
-
-# GHC Head
+# GHC
 Host ghc
 	HostName darcs.haskell.org
 	User dterei
 
-# Staford Machine (171.66.3.209)
+# Staford Machine
 host sfu
 	Hostname davidt.scs.stanford.edu
 	User davidt
