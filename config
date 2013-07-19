@@ -108,6 +108,10 @@ host mc2dev
    Hostname mc2.dev.ec2.memcachier.com
 	User ubuntu
 
+host mc3dev
+   Hostname mc3.dev.ec2.memcachier.com
+	User ubuntu
+
 host mcwork
 	Hostname mcwork.ec2.memcachier.com
 	User ubuntu
