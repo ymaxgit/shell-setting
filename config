@@ -128,6 +128,10 @@ host mc4eu
    Hostname mc4.eu.ec2.memcachier.com
 	User ubuntu
 
+host mc1eud
+	Hostname mc1.dev.eu.ec2.memcachier.com
+	User ubuntu
+
 host mc1dev
    Hostname mc1.dev.ec2.memcachier.com
 	User ubuntu
