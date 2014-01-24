@@ -156,3 +156,11 @@ host mctmp
   Hostname mctmp.ec2.memcachier.com
   User ubuntu
 
+host povo
+  Hostname provisioner.memcachier.com
+  User ubuntu
+
+host povo-stag
+  Hostname povo.staging.memcachier.com
+  User ubuntu
+
