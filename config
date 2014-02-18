@@ -44,6 +44,11 @@ host haskell
   User davidt
 
 # MemCachier machines
+host mem
+  Hostname troy.homenet.org
+  User davidt
+  Port 23
+
 host mc1
   Hostname mc1.ec2.memcachier.com
   User ubuntu
