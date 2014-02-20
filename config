@@ -181,3 +181,27 @@ host povo-stag
   Hostname povo.staging.memcachier.com
   User ubuntu
 
+host aue1
+  Hostname mc1.c1.us-east.azure.memcachier.com
+  User ubuntu
+
+host auw1
+  Hostname mc1.c1.us-west.azure.memcachier.com
+  User ubuntu
+
+host aae1
+  Hostname mc1.c1.asia-east.azure.memcachier.com
+  User ubuntu
+
+host aas1
+  Hostname mc1.c1.asia-south.azure.memcachier.com
+  User ubuntu
+
+host aew1
+  Hostname mc1.c1.eu-west.azure.memcachier.com
+  User ubuntu
+
+host aen1
+  Hostname mc1.c1.eu-north.azure.memcachier.com
+  User ubuntu
+
