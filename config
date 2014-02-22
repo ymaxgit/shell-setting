@@ -45,7 +45,7 @@ host haskell
 
 # MemCachier machines
 host mem
-  Hostname troy.homenet.org
+  Hostname davidt.memcachier.com
   User davidt
   Port 23
 
