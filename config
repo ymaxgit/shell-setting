@@ -217,3 +217,7 @@ host aen1
   Hostname mc1.c1.eu-north.azure.memcachier.com
   User ubuntu
 
+host rd1
+  Hostname mc1.c1.dallas.rackspace.memcachier.com
+  User ubuntu
+
