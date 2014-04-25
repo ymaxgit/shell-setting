@@ -129,6 +129,10 @@ host mc7b
   Hostname mc7.c2.ec2.memcachier.com
   User ubuntu
 
+host mc8b
+  Hostname mc8.c2.ec2.memcachier.com
+  User ubuntu
+
 host mc1c
   Hostname mc1.c3.ec2.memcachier.com
   User ubuntu
