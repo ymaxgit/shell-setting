@@ -225,3 +225,7 @@ host rd1
   Hostname mc1.c1.dallas.rackspace.memcachier.com
   User ubuntu
 
+host rd2
+  Hostname mc2.c1.dallas.rackspace.memcachier.com
+  User ubuntu
+
