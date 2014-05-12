@@ -137,6 +137,10 @@ host mc1c
   Hostname mc1.c3.ec2.memcachier.com
   User ubuntu
 
+host mc2c
+  Hostname mc2.c3.ec2.memcachier.com
+  User ubuntu
+
 host mc1eu
   Hostname mc1.eu.ec2.memcachier.com
   User ubuntu
