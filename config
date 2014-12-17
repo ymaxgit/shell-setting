@@ -1,5 +1,14 @@
 ServerAliveInterval 20
 
+# Home Machines
+host blk
+  Hostname black.dterei.homenet.org
+  User davidt
+
+host slv
+  Hostname silver.dterei.homenet.org
+  User davidt
+
 # GHC
 Host ghc
   HostName darcs.haskell.org
@@ -42,12 +51,6 @@ host z5
 host haskell
   Hostname haskell.scs.stanford.edu
   User davidt
-
-# MemCachier machines
-host mem
-  Hostname davidt.memcachier.com
-  User davidt
-  Port 23
 
 host mc1
   Hostname mc1.ec2.memcachier.com
