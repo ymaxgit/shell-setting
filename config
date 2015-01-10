@@ -14,7 +14,7 @@ Host ghc
   HostName darcs.haskell.org
   User dterei
 
-# Staford Machine
+# Staford Machines
 host sfu
   Hostname davidt.scs.stanford.edu
   User davidt
@@ -22,6 +22,10 @@ host sfu
 
 host market
   Hostname market.scs.stanford.edu
+  User davidt
+
+host haskell
+  Hostname haskell.scs.stanford.edu
   User davidt
 
 host seven
@@ -48,10 +52,143 @@ host z5
   Hostname zephyr5.stanford.edu
   User dterei
 
-host haskell
-  Hostname haskell.scs.stanford.edu
+host mav1
+  Hostname maverick-1.stanford.edu
+  User dterei
+
+host mav2
+  Hostname maverick-2.stanford.edu
+  User dterei
+
+host mav3
+  Hostname maverick-3.stanford.edu
+  User dterei
+
+host mav4
+  Hostname maverick-4.stanford.edu
+  User dterei
+
+host mav5
+  Hostname maverick-5.stanford.edu
+  User dterei
+
+host mav6
+  Hostname maverick-6.stanford.edu
+  User dterei
+
+host mav7
+  Hostname maverick-7.stanford.edu
+  User dterei
+
+host mav8
+  Hostname maverick-8.stanford.edu
+  User dterei
+
+host mav9
+  Hostname maverick-9.stanford.edu
+  User dterei
+
+host mav10
+  Hostname maverick-10.stanford.edu
+  User dterei
+
+host mav11
+  Hostname maverick-11.stanford.edu
+  User dterei
+
+host mav12
+  Hostname maverick-12.stanford.edu
+  User dterei
+
+host mav13
+  Hostname maverick-13.stanford.edu
+  User dterei
+
+host mav14
+  Hostname maverick-14.stanford.edu
+  User dterei
+
+host mav15
+  Hostname maverick-15.stanford.edu
+  User dterei
+
+host mav16
+  Hostname maverick-16.stanford.edu
+  User dterei
+
+host mav17
+  Hostname maverick-17.stanford.edu
+  User dterei
+
+host mav18
+  Hostname maverick-18.stanford.edu
+  User dterei
+
+host mav19
+  Hostname maverick-19.stanford.edu
+  User dterei
+
+host mav20
+  Hostname maverick-20.stanford.edu
+  User dterei
+
+host mav21
+  Hostname maverick-21.stanford.edu
+  User dterei
+
+host mav22
+  Hostname maverick-22.stanford.edu
+  User dterei
+
+host mav23
+  Hostname maverick-23.stanford.edu
+  User dterei
+
+host mav24
+  Hostname maverick-24.stanford.edu
+  User dterei
+
+host mav25
+  Hostname maverick-25.stanford.edu
+  User dterei
+
+host mav26
+  Hostname maverick-26.stanford.edu
+  User dterei
+
+host mav27
+  Hostname maverick-27.stanford.edu
+  User dterei
+
+host mav28
+  Hostname maverick-28.stanford.edu
+  User dterei
+
+host mav29
+  Hostname maverick-29.stanford.edu
+  User dterei
+
+host gos1
+  Hostname goose-1.stanford.edu
   User davidt
 
+host gos2
+  Hostname goose-2.stanford.edu
+  User dterei
+
+host gos3
+  Hostname goose-3.stanford.edu
+  User davidt
+
+host gos4
+  Hostname goose-4.stanford.edu
+  User davidt
+
+host gos5
+  Hostname goose-5.stanford.edu
+  User davidt
+
+# MemCachier Machines
 host mc1
   Hostname mc1.ec2.memcachier.com
   User ubuntu
