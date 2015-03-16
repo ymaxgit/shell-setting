@@ -172,16 +172,32 @@ host gos1
   Hostname goose-1.stanford.edu
   User davidt
 
+host gos1-6
+  Hostname 2001:470:806d:8002:225:90ff:fed3:4ee2
+  User davidt
+
 host gos2
   Hostname goose-2.stanford.edu
+  User dterei
+
+host gos2-6
+  Hostname 2001:470:806d:8002:74e7:f096:7c08:e2c8
   User dterei
 
 host gos3
   Hostname goose-3.stanford.edu
   User davidt
 
+host gos3-6
+  Hostname 2001:470:806d:8002:225:90ff:fed3:4ef8
+  User davidt
+
 host gos4
   Hostname goose-4.stanford.edu
+  User davidt
+
+host gos4-6
+  Hostname 2001:470:806d:8002:225:90ff:fed3:5116
   User davidt
 
 host gos5
