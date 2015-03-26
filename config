@@ -64,6 +64,10 @@ host mav3
   Hostname maverick-3.stanford.edu
   User dterei
 
+host mav3-6
+  Hostname 2001:470:806d:8002:225:90ff:fec8:f0c
+  User dterei
+
 host mav4
   Hostname maverick-4.stanford.edu
   User dterei
