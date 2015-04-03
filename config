@@ -18,16 +18,20 @@ Host ghc
 host sfu
   Hostname davidt.scs.stanford.edu
   User davidt
-  ForwardX11 yes
 
 host market
   Hostname market.scs.stanford.edu
   User davidt
 
-host haskell
-  Hostname haskell.scs.stanford.edu
+host ghcio
+  Hostname ghcio.scs.stanford.edu
   User davidt
 
+host tezzer
+  Hostname tezzer.scs.stanford.edu
+  User davidt
+
+# Stanford Cluster
 host seven
   Hostname seven.stanford.edu
   User dterei
