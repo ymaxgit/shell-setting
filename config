@@ -2,11 +2,11 @@ ServerAliveInterval 20
 
 # Home Machines
 host blk
-  Hostname black.dterei.homenet.org
+  Hostname black.davidterei.com
   User davidt
 
 host slv
-  Hostname silver.dterei.homenet.org
+  Hostname silver.davidterei.com
   User davidt
 
 # GHC
