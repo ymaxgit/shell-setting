@@ -31,6 +31,11 @@ host tezzer
   Hostname tezzer.scs.stanford.edu
   User davidt
 
+host hs02
+  Hostname hs02.scs.stanford.edu
+  Port 77
+  User davidt
+
 # Stanford Cluster
 host seven
   Hostname seven.stanford.edu
