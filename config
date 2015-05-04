@@ -354,6 +354,22 @@ host mc1peu
   Hostname mc1proxy.eu.ec2.memcachier.com
   User ubuntu
 
+host mc1eub
+  Hostname mc1.c2.eu.ec2.memcachier.com
+  User ubuntu
+
+host mc2eub
+  Hostname mc2.c2.eu.ec2.memcachier.com
+  User ubuntu
+
+host mc3eub
+  Hostname mc3.c2.eu.ec2.memcachier.com
+  User ubuntu
+
+host mc4eub
+  Hostname mc4.c2.eu.ec2.memcachier.com
+  User ubuntu
+
 host mc1eud
   Hostname mc1.dev.eu.ec2.memcachier.com
   User ubuntu
