@@ -191,11 +191,11 @@ host gos1-6
 
 host gos2
   Hostname goose-2.stanford.edu
-  User dterei
+  User davidt
 
 host gos2-6
   Hostname 2001:470:806d:8002:74e7:f096:7c08:e2c8
-  User dterei
+  User davidt
 
 host gos3
   Hostname goose-3.stanford.edu
