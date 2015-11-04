@@ -217,6 +217,14 @@ host gos5
   Hostname goose-5.stanford.edu
   User davidt
 
+host gol1
+  Hostname goliath-1.stanford.edu
+  User dterei
+
+host gol2
+  Hostname goliath-2.stanford.edu
+  User dterei
+
 # MemCachier Machines
 host mc1
   Hostname mc1.ec2.memcachier.com
