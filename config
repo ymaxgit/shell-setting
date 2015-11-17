@@ -414,12 +414,8 @@ host mc5dev
    Hostname mc5.dev.ec2.memcachier.com
   User ubuntu
 
-host mcwork
-  Hostname mcwork.ec2.memcachier.com
-  User ubuntu
-
-host mctmp
-  Hostname mctmp.ec2.memcachier.com
+host mc1x
+  Hostname mc1.ec2.staging.memcachier.com
   User ubuntu
 
 host povo
