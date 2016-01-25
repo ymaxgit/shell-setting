@@ -422,6 +422,54 @@ host mc1x
   Hostname mc1.ec2.staging.memcachier.com
   User ubuntu
 
+host or1
+  Hostname mc1.c1.us-west-2.ec2.memcachier.com
+  User ubuntu
+
+host or2
+  Hostname mc2.c1.us-west-2.ec2.memcachier.com
+  User ubuntu
+
+host or1dev
+  Hostname mc2.dev.us-west-2.ec2.memcachier.com
+  User ubuntu
+
+host or2dev
+  Hostname mc2.dev.us-west-2.ec2.memcachier.com
+  User ubuntu
+
+host frank1
+  Hostname mc1.c1.eu-central-1.ec2.memcachier.com
+  User ubuntu
+
+host frank2
+  Hostname mc2.c1.eu-central-1.ec2.memcachier.com
+  User ubuntu
+
+host frank1dev
+  Hostname mc2.dev.eu-central-1.ec2.memcachier.com
+  User ubuntu
+
+host frank2dev
+  Hostname mc2.dev.eu-central-1.ec2.memcachier.com
+  User ubuntu
+
+host tok1
+  Hostname mc1.c1.ap-northeast-1.ec2.memcachier.com
+  User ubuntu
+
+host tok2
+  Hostname mc2.c1.ap-northeast-1.ec2.memcachier.com
+  User ubuntu
+
+host tok1dev
+  Hostname mc2.dev.ap-northeast-1.ec2.memcachier.com
+  User ubuntu
+
+host tok2dev
+  Hostname mc2.dev.ap-northeast-1.ec2.memcachier.com
+  User ubuntu
+
 host povo
   Hostname provisioner.memcachier.com
   User ubuntu
