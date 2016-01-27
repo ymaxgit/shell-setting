@@ -36,6 +36,10 @@ host hs02
   Port 77
   User davidt
 
+host sing
+  Hostname sing.stanford.edu
+  User dterei
+
 # Stanford Cluster
 host seven
   Hostname seven.stanford.edu
