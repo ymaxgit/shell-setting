@@ -31,9 +31,8 @@ host tezzer
   Hostname tezzer.scs.stanford.edu
   User davidt
 
-host hs02
-  Hostname hs02.scs.stanford.edu
-  Port 77
+host vm
+  Hostname vm.scs.stanford.edu
   User davidt
 
 host sing
