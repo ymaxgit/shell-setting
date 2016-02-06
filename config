@@ -23,6 +23,11 @@ host market
   Hostname market.scs.stanford.edu
   User davidt
 
+host hs06
+  Hostname hs06.scs.stanford.edu
+  User dterei
+  Port 993
+
 host ghcio
   Hostname ghcio.scs.stanford.edu
   User davidt
